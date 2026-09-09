@@ -1,22 +1,19 @@
 * {
     margin: 0;
-    padding: 0:
-}
-
-body {
+    padding: 0;
     font-family: "Work Sans", sans-serif;
 }
 
 /*container*/
 .container {
     width: 90%;
+    height: 100%;
     margin: 0 auto;
 }
 
 /*navbar*/
 .nav{
-    background: orange;
-    position: fixed;
+    position: absolute;
     top: 40px;
     left: 0;
     width: 100%;
@@ -25,12 +22,10 @@ body {
     display: flex;
     justify-content: space-between;
     align-items: baseline;
-    padding: 10px 0;
 }
 .brand {
     font-size: 20px;
-    font-weight: 500;
-    letter-spacing: 1px;
+    letter-spacing: 2px;
     text-decoration: none;
     text-transform: uppercase;
     color: white;
@@ -51,4 +46,46 @@ body {
 }
 .active a{
     color: white !important;
+}
+
+/*header*/
+.header {
+    background: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)), url(../img/bg_1.jpg);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    height: 100vh;
+}
+.header-content {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    height: 100%;
+}
+.heading {
+    color: white;
+    font-size: 45px;
+    font-weight: 400;
+}
+.sub-heading {
+    color: #ffffff80;
+    font-size: 28px;
+    margin: 20px 0 48px 0;
+}
+.sub-heading a {
+    color: white;
+    text-decoration-color: #6dc234;
+}
+.btn {
+    background-color: #6dc234;
+    color: white;
+    font-size: 14px;
+    font-weight: 600;
+    letter-spacing: 1px;
+    text-decoration: none;
+    text-transform: uppercase;
+    padding: 20px 30px;
+    border-radius: 5px;
 }

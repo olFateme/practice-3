@@ -1,4 +1,54 @@
 * {
     margin: 0;
-    padding: 0;
+    padding: 0:
+}
+
+body {
+    font-family: "Work Sans", sans-serif;
+}
+
+/*container*/
+.container {
+    width: 90%;
+    margin: 0 auto;
+}
+
+/*navbar*/
+.nav{
+    background: orange;
+    position: fixed;
+    top: 40px;
+    left: 0;
+    width: 100%;
+}
+.nav-content {
+    display: flex;
+    justify-content: space-between;
+    align-items: baseline;
+    padding: 10px 0;
+}
+.brand {
+    font-size: 20px;
+    font-weight: 500;
+    letter-spacing: 1px;
+    text-decoration: none;
+    text-transform: uppercase;
+    color: white;
+}
+.nav-link {
+    display: grid;
+    grid-template-columns: repeat(4, auto);
+    gap: 20px;
+    list-style-type: none;
+}
+.nav-link a {
+    margin: 0 10px;
+    color: #ffffff80;
+    text-decoration: none;
+}
+.nav-link a:hover {
+    color: white;
+}
+.active a{
+    color: white !important;
 }

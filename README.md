@@ -1,6 +1,6 @@
 # Initial — HTML & CSS Grid Practice Project
 
-🔗 **Live Demo:** https://olfateme.github.io/project-3/
+🔗 **Live Demo:** https://olfateme.github.io/practice-3/
 
 A landing page built with **HTML5** and **CSS3** as my third practical project while learning Front-End Development.
 

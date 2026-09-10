@@ -40,9 +40,10 @@
     margin: 0 10px;
     color: #ffffff80;
     text-decoration: none;
+    transition-duration: 0.3s;
 }
 .nav-link a:hover {
-    color: white;
+    color: #ffffffbf;
 }
 .active a{
     color: white !important;
@@ -88,4 +89,56 @@
     text-transform: uppercase;
     padding: 20px 30px;
     border-radius: 5px;
+}
+.btn:hover {
+    background-color: #569a29;
+}
+
+/*members*/
+.about {
+    margin: 120px 0;
+}
+.section-img {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 10px;
+}
+.section-img img {
+    width: 100%;
+}
+.section-text {
+    display: grid;
+    grid-template-columns: 1fr 2fr;
+    gap: 10px;
+    margin: 100px 0;
+}
+.title {
+    font-size: 24px;
+    font-weight: 400;
+    line-height: 1.5;
+}
+.text {
+    color: #859196;
+    font-size: 16px;
+    line-height: 1.6;
+}
+.section-boxes {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 30px;
+}
+.section-boxes i {
+    color: #6dc234;
+    font-size: 54px;
+    margin-bottom: 10px;
+}
+.box {
+    border: 1px solid #e6e6e6;
+    padding: 60px 50px;
+    border-radius: 5px;
+}
+.box-title {
+    font-size: 20px;
+    font-weight: 400;
+    margin: 15px 0;
 }

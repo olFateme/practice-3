@@ -94,7 +94,7 @@
     background-color: #569a29;
 }
 
-/*members*/
+/*about*/
 .about {
     margin: 120px 0;
 }
@@ -141,4 +141,22 @@
     font-size: 20px;
     font-weight: 400;
     margin: 15px 0;
+}
+
+/*subscribe*/
+
+.subscribe {
+    background: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)), url(../img/bg_1.jpg);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    padding: 80px 0;
+}
+.subscribe-content {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    height: 100%;
 }

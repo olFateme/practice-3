@@ -182,3 +182,26 @@
 .members-img img {
     width: 100%;
 }
+
+/*contact*/
+
+.contact {
+    padding: 150px 0;
+}
+.contact-content {
+    display: grid;
+    grid-template-columns: 1fr 2fr;
+    gap: 150px;
+    border: 1px solid #e6e6e6;
+    padding: 60px 50px;
+    border-radius: 5px;
+}
+.contact-info {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+}
+.contact-info p {
+    margin-bottom: 30px;
+}

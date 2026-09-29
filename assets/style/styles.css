@@ -48,6 +48,16 @@
 .active a{
     color: white !important;
 }
+.bars-icon {
+    display: none;
+    color: #ffffff80;
+    font-size: 20px;
+    padding: 5px 10px;
+    border: 1px solid #ffffff20;
+    border-radius: 12%;
+    justify-content: center;
+    align-items: center;
+}
 
 /*header*/
 .header {
@@ -279,3 +289,56 @@
 .footer-bottom-text i {
     color: red;
 }
+
+
+
+/*// `lg` applies to medium devices (tablets, less than 992px)*/
+@media (max-width: 991.98px) {
+    /*container*/
+    .container {
+        width: 75%;
+    }
+
+    /*navbar*/
+    .nav{
+        position: fixed;
+        top: 0px;
+        left: 0;
+        padding: 10px 0;
+        background: black;
+    }
+    .nav-link {
+        display: none;
+    }
+    .bars-icon {
+        display: flex;
+        color: #ffffff80;
+        font-size: 20px;
+        padding: 5px 10px;
+        border: 1px solid #ffffff20;
+        border-radius: 12%;
+        justify-content: center;
+        align-items: center;
+    }
+    /*end navbar*/
+}
+
+
+/*// `md` applies to small devices (landscape phones, less than 768px)*/
+@media (max-width: 767.98px) {
+    /*container*/
+    .container {
+        width: 94%;
+    /*end container*/
+    }
+}
+
+/*// `sm` applies to x-small devices (portrait phones, less than 576px)*/
+@media (max-width: 575.98px) { ... }
+
+
+
+
+
+
+

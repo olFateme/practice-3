@@ -321,6 +321,56 @@
         align-items: center;
     }
     /*end navbar*/
+
+    /*header*/
+    .header {
+        /*background-size: cover;*/
+        /*background-position: center;*/
+        /*background-repeat: no-repeat;*/
+        /*height: 100vh;*/
+    }
+    .header-content {
+        /*display: flex;*/
+        /*flex-direction: column;*/
+        /*justify-content: center;*/
+        /*align-items: center;*/
+        /*text-align: center;*/
+        /*height: 100%;*/
+    }
+    .heading {
+        /*color: white;*/
+        /*font-size: 45px;*/
+        /*font-weight: 400;*/
+        width: 65%;
+
+    }
+    .sub-heading {
+        /*color: #ffffff80;*/
+        /*font-size: 28px;*/
+        /*margin: 20px 0 48px 0;*/
+        width: 65%;
+
+    }
+    .sub-heading a {
+        /*color: white;*/
+        /*text-decoration-color: #6dc234;*/
+    }
+    .btn {
+        /*background-color: #6dc234;*/
+        /*color: white;*/
+        /*font-size: 14px;*/
+        /*font-weight: 600;*/
+        /*letter-spacing: 1px;*/
+        /*text-decoration: none;*/
+        /*text-transform: uppercase;*/
+        /*padding: 20px 30px;*/
+        /*border-radius: 5px;*/
+    }
+    .btn:hover {
+        /*background-color: #569a29;*/
+    }
+    /*end header*/
+
 }
 
 
@@ -331,10 +381,41 @@
         width: 94%;
     /*end container*/
     }
+
+    /*header*/
+    .btn {
+        width: 65%;
+    }
+    /*end header*/
 }
 
+
+
 /*// `sm` applies to x-small devices (portrait phones, less than 576px)*/
-@media (max-width: 575.98px) { ... }
+@media (max-width: 575.98px) {
+    /*container*/
+    .container {
+        width: 90%;
+    }
+
+    /*header*/
+    .header {
+    }
+    .header-content {
+        width: 100%;
+    }
+    .heading {
+        font-size: 35px;
+        width: 100%;
+    }
+    .sub-heading {
+        width: 100%;
+    }
+    .btn {
+        width: 80%;
+    }
+    /*end header*/
+}
 
 
 
